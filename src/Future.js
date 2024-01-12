@@ -4,6 +4,7 @@ import './App.css';
 
 function Future() {
     const [countryFuture, setCountryFuture] = useState(dataFuture);
+
     const removeCountry = (id) => {
         let newCountry = countryFuture.filter(country => country.id !==id);
         setCountryFuture(newCountry)
@@ -37,10 +38,10 @@ function Future() {
       })
 
       )}
-      <div className='container'> 
-      <button className='delete' onClick={() => setCountryFuture([])}>delete all</button>
-      </div>
-    </div>
+            <div className='container'> 
+              <button className='delete' onClick={() => setCountryFuture([])}>delete all</button>
+            </div>
+        </div>
     )
 }
 export default Future;
