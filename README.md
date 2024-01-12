@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Photo Gallery App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Photo Gallery App! This React-based web application is part of an educational project, created to practice and demonstrate the use of React and array methods for data manipulation.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Country Gallery:** Browse through the list of countries you have visited with easy navigation using the "Previous" and "Next" buttons.
+- **Country List:** Mark and remove countries as soon as you visit them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React:** Popular JavaScript library for building user interfaces.
 
-### `npm test`
+- **useState Hook:** State management is implemented using the `useState` hook from React, allowing dynamic updates to the component state.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Array Methods:** The application utilizes the following array methods for data manipulation:
+  - **Filter():** Used to filter the list of countries based on specific criteria.
+  - **Map():** Used to transform the data for rendering components.
 
-### `npm run build`
+## How to Use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Navigation:**
+   - Click the "Previous" button to view the details of the previous country.
+   - Click the "Next" button to view the details of the next country.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Country Details:**
+   - The image and information about the selected country will be displayed in the center of the page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Future Plans:**
+   - Check out the "Future" section for upcoming travel plans.
+   - Delete using the Remove button the countries you visited.
 
-### `npm run eject`
+## Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/your-username/your-project.git
+   cd your-project
+   
+2. Install dependencies:
+   
+   ```bash
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the application:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm start
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+4. Open your browser and navigate to http://localhost:3000 to view the app.
